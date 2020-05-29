@@ -1,2 +1,4 @@
 ---
-# defaults file for ansible-hari
+hari_file = '/.hari'
+hari_content = "HARi was HERE"
+hari_mode    = '0400'

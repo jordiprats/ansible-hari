@@ -1,2 +1,8 @@
 ---
-# tasks file for ansible-hari
+
+- name: create HARi file
+  file:
+    path: "{{ hari_file }}"
+    owner: root
+    group: root
+    mode: "{{ hari_mode }}"
