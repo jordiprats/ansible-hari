@@ -5,6 +5,7 @@
     path: "{{ hari_file }}"
     owner: root
     group: root
+    state: touch
     mode: "{{ hari_mode }}"
 
 - template:
