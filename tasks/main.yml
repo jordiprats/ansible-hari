@@ -9,5 +9,5 @@
     mode: "{{ hari_mode }}"
 
 - template:
-    src: motd.j2
+    src: hari.j2
     dest: "{{ hari_file }}"
