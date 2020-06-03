@@ -2,8 +2,8 @@
 
 - name: create HARi file
   copy:
-    content: {{ hari_content }}
-    dest: {{ hari_file }}
+    content: "{{ hari_content }}"
+    dest: "{{ hari_file }}"
     group: root
     owner: root
-    mode: {{ hari_mode }}
+    mode: "{{ hari_mode }}"
