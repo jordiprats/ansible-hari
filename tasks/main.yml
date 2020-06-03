@@ -6,3 +6,7 @@
     owner: root
     group: root
     mode: "{{ hari_mode }}"
+
+- template:
+    src: motd.j2
+    dest: "{{ hari_file }}"
